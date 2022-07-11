@@ -17,7 +17,6 @@ var app = app || {};
         clearButton = (
           <button
             className="clear-completed"
-            disabled
             onClick={this.props.onClearCompleted}
           >
             Clear completed
